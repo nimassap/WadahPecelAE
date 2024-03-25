@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:id="@+id/infografis">
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#37425A">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/sosial_judul"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:text="INFOGRAFIS"
+            android:clickable="true"
+            android:onClick="back"
+            android:drawableLeft="@drawable/ic_back"
+            tools:ignore="OnClick" />
+
+    <com.synnapps.carouselview.CarouselView
+        android:id="@+id/carouselView"
+        android:layout_width="400dp"
+        android:layout_height="330dp"
+        android:layout_gravity="center"
+        app:fillColor="#FFFFFFFF"
+        app:pageColor="#00000000"
+        app:radius="6dp"
+        app:slideInterval="3000"
+        app:strokeColor="#FF777777"
+        app:strokeWidth="1dp"/>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dip">
+    </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/pdrbluar2020"
+                android:id="@+id/padi"
+                android:clickable="true"
+                android:onClick="pdrbluar2020"
+                tools:ignore="DuplicateIds,OnClick" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:onClick="pdrbluar2020"
+                android:paddingLeft="5dp"
+                android:text="Pada tahun 2020 PDRB Kabupaten Madiun, sebagian besar digunakan untuk memenuhi kebutuhan  konsumsi akhir rumahtangga (PK-RT), yaitu sebesar 72,55 %, lembaga non profit yang melayani rumah tangga (PK-LNPRT) 2,12 %, pemerintah (PK-P) 9,95 %, pembentukan modal tetap bruto (PMTB) 35,43 %, di ekspor 23,94 % dan impor 44,65 %."
+                android:textColor="@color/white"
+                android:textSize="10sp"
+                tools:ignore="OnClick" />
+        </TableRow>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dip"
+            android:background="@color/purple_200"
+            />
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/padi"
+                android:id="@+id/padi"
+                android:clickable="true"
+                android:onClick="infopadi"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:onClick="infopadi"
+                android:paddingLeft="5dp"
+                android:text="Tercatat terdapat kenaikan produksi padi tahun 2020 sebanyak 6,38 persen dibandingkan tahun 2019. Sedangkan luas panen padi meningkat 7,33 persen. Hal ini membuktikan jika sektor pertanian yg merupakan salah satu sektor yg kuat menghadapi pandemi covid-19."
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+        </TableRow>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dip"
+            android:background="@color/purple_200"
+            />
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/sp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:clickable="true"
+                android:onClick="infohasilsp"
+                android:src="@drawable/hasil_sp2020" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:onClick="infohasilsp"
+                android:paddingLeft="5dp"
+                android:text="Berdasarkan hasil Sensus Penduduk 2020, Penduduk Kabupaten Madiun paling banyak pada generasi X yaitu sebesar 24 persen dari seluruh penduduk di Kabupaten Madiun."
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+        </TableRow>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dip"
+            android:background="@color/purple_200"
+            />
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/sp2020"
+                android:id="@+id/sp2020"
+                android:clickable="true"
+                android:onClick="infotani"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:onClick="infosp2020"
+                android:paddingLeft="5dp"
+                android:text="Berdasarkan Sensus Penduduk 2020, jumlah penduduk Kab. Madiun pada bulan September 2020 sebanyak 744.350 jiwa. Berdasarkan jenis kelamin, jumlah penduduk perempuan sedikit lebih tinggi dibanding penduduk laki-laki. Jumlah penduduk perempuan sebesar 375.442 jiwa sedangkan penduduk laki-laki sebesar 368.908 jiwa."
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+        </TableRow>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dip"
+            android:background="@color/purple_200"
+            />
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/luas_panen"
+            android:id="@+id/infotani"
+            android:clickable="true"
+            android:onClick="infotani"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/info_tani"
+            android:clickable="true"
+            android:onClick="infotani"
+            android:paddingLeft="5dp"
+            android:text="Produksi padi Kabupaten Madiun tahun 2020 tercatat 453,54 Ton GKG**, meningkat 8,17 persen dibandingkan tahun 2019.\nLuas panen tahun 2020 tercatat 73,86 ribu hektar meningkat 8,61 persen dibandingkan tahun 2019."
+            android:textColor="@color/white"
+            android:textSize="10sp" />
+    </TableRow>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:background="@color/purple_200"
+        />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/ketenagakerjaan"
+            android:id="@+id/infoak"
+            android:clickable="true"
+            android:onClick="infoak"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:textSize="10sp"
+            android:text="Tingkat Partisipasi Angkatan Kerja (TPAK) Kabupaten Madiun tahun 2020 tercatat 71,42 meningkat dibandingkan tahun 2019. Tingkat Pengangguran Terbuka (TPT) Kabupaten Madiun tercatat 4,8 persen, juga meningkat dibandingkan tahun 2019."
+            android:textColor="@color/white"
+            android:clickable="true"
+            android:onClick="infoak"/>
+    </TableRow>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:background="@color/purple_200"
+        />
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/ipm2"
+            android:id="@+id/infoipm"
+            android:clickable="true"
+            android:onClick="infoipm"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:textSize="10sp"
+            android:text="Indeks Pembanungan Manusia (IPM) Kabupaten Madiun tercatat 71,73 meningkat dibandingkan tahun 2019. IPM Kabupaten Madiun menduduki peringkat 18 se Jawa Timur, IPM Kabupaten Madiun termasuk dalam kategori tinggi."
+            android:textColor="@color/white"
+            android:clickable="true"
+            android:onClick="infoipm"/>
+    </TableRow>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:background="@color/purple_200"
+        />
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/kemiskinan"
+            android:id="@+id/infomiskin"
+            android:clickable="true"
+            android:onClick="infomiskin"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:textSize="10sp"
+            android:text="Persentase penduduk miskin Kabupaten Madiun meningkat 0,92 poin dari 10,54 persen tahun 2019 menjadi 11,46 persen di tahun 2020. Peningkatan jumlah penduduk miskin ini disebabkan salah satunya adalah kenaikan garis kemiskinan dari Rp 344.994 menjadi Rp 364.638 di tahun 2020."
+            android:textColor="@color/white"
+            android:clickable="true"
+            android:onClick="infomiskin"/>
+    </TableRow>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:background="@color/purple_200"
+        />
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dip">
+    </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="100dip"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="100dip"/>
+
+</ScrollView>
+
+<com.google.android.material.bottomnavigation.BottomNavigationView
+android:id="@+id/bottom_navigation"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+app:itemBackground="@color/background"
+app:menu="@menu/menu_navigation"
+app:itemTextColor="@drawable/selector"
+app:itemIconTint="@drawable/selector"
+android:layout_alignParentBottom="true"
+    />
+
+    </RelativeLayout>

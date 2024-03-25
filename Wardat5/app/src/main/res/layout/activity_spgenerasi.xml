@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:id="@+id/spgenerasi">
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/sosial_judul"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:text="Jumlah Penduduk menurut Kelompok Umur Generasi dan Jenis Kelamin"
+            android:clickable="true"
+            android:onClick="back"
+            android:drawableLeft="@drawable/ic_back"
+            tools:ignore="OnClick" />
+
+        <TableRow
+            android:background="#0C03A9F4"
+            android:layout_width="match_parent"
+            android:padding="5dip">
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/rowlay4"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="@android:color/holo_blue_light"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_gravity="center_vertical"
+                android:text="Kelompok\nUmur\nGenerasi"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Jumlah Penduduk\nLaki-Laki\n(jiwa)"
+                android:textAlignment="center" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:text="Jumlah Penduduk\nPerempuan\n(jiwa)" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:layout_gravity="center_vertical"
+                android:text="Jumlah Penduduk\n(jiwa)"
+                tools:ignore="RtlCompat" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="#ECEFF1"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Post Generasi Z" />
+
+            <TextView
+                android:id="@+id/PGenZ_Laki"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="38.200"
+                android:textAlignment="center" />
+            <TextView
+                android:id="@+id/PGenZ_Perem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:text="36.809" />
+            <TextView
+                android:id="@+id/PGenZ_Total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:text="75.009" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="#ECEFF1"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Generasi Z" />
+
+            <TextView
+                android:id="@+id/GenZ_Laki"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="80.581"
+                android:textAlignment="center" />
+            <TextView
+                android:id="@+id/GenZ_Perem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:text="75.524" />
+            <TextView
+                android:id="@+id/GenZ_Total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:text="156.105" />
+
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="#ECEFF1"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Milenial" />
+
+            <TextView
+                android:id="@+id/milenial_Laki"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="83.846"
+                android:textAlignment="center" />
+            <TextView
+                android:id="@+id/milenial_Perem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:text="84.008" />
+            <TextView
+                android:id="@+id/milenial_Total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:text="167.854" />
+
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="#ECEFF1"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Generasi X" />
+
+            <TextView
+                android:id="@+id/GenX_Laki"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="87.553"
+                android:textAlignment="center" />
+            <TextView
+                android:id="@+id/GenX_Perem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:text="91.935" />
+            <TextView
+                android:id="@+id/GenX_Total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:text="179.488" />
+
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="#ECEFF1"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Boomer" />
+
+            <TextView
+                android:id="@+id/Boomer_Laki"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="67.780"
+                android:textAlignment="center" />
+            <TextView
+                android:id="@+id/Boomer_Perem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:text="71.144" />
+            <TextView
+                android:id="@+id/Boomer_Total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:text="138.924" />
+
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="#ECEFF1"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Pre Boomer" />
+
+            <TextView
+                android:id="@+id/PBoomer_Laki"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="10.948"
+                android:textAlignment="center" />
+            <TextView
+                android:id="@+id/PBoomer_Perem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:text="16.022" />
+            <TextView
+                android:id="@+id/PBoomer_Total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:text="26.970" />
+
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="@android:color/holo_blue_light"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Total" />
+
+            <TextView
+                android:id="@+id/GenerasiTotal_Laki"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="368.908"
+                android:textAlignment="center" />
+            <TextView
+                android:id="@+id/GenerasiTotal_Perem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:text="375.442" />
+            <TextView
+                android:id="@+id/GenerasiTotal_Semua"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:text="744.350" />
+
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dip"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:textSize="10sp"
+            android:text="Keterangan:" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:textSize="10sp"
+            android:text="Post Generasi Z : Lahir tahun 2013 dst, perkiraan usia sekarang s.d 7 tahun." />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dip"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:textSize="10sp"
+            android:text="Generasi Z : Lahir tahun 1997-2012, perkiraan usia sekarang 8-23 tahun." />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dip"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:textSize="10sp"
+            android:text="Milenial : Lahir tahun 1981-1996, perkiraan usia sekarang 24-39 tahun." />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dip"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:textSize="10sp"
+            android:text="Generasi X : Lahir tahun 1965-1980, perkiraan usia sekarang 40-55 tahun." />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dip"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:textSize="10sp"
+            android:text="Boomer : Lahir tahun 1946-1964, perkiraan usia sekarang 56-74 tahun." />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dip"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:textSize="10sp"
+            android:text="Pre Boomer : Lahir sebelum tahun 1945, perkiraan umur sekarang +75 tahun." />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="100dip"
+            />
+    </TableLayout>
+</ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:itemBackground="@color/background"
+        app:menu="@menu/menu_navigation"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>

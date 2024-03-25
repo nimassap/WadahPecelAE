@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/parentLayout"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/padi"
+            android:id="@+id/imgSearch"/>
+
+        <TextView
+            android:id="@+id/descSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="70dp"
+            android:paddingLeft="5dp"
+            android:text="Tercatat terdapat kenaikan produksi padi tahun 2020 sebanyak 6,38 persen dibandingkan tahun 2019. Sedangkan luas panen padi meningkat 7,33 persen. Hal ini membuktikan jika sektor pertanian yg merupakan salah satu sektor yg kuat menghadapi pandemi covid-19."
+            android:textColor="@color/white"
+            android:textSize="10sp" />
+
+
+    </RelativeLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

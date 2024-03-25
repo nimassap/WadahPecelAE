@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/about">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/about">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingTop="16dp"
+            android:paddingRight="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#6A676A"
+                android:clickable="true"
+                android:drawableLeft="@drawable/ic_back"
+                android:onClick="back"
+                android:padding="10dp"
+                android:text="Kunjungi Media Sosial BPS Kabupaten Madiun"
+                android:textAlignment="center"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/website"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_web"
+                android:drawablePadding="20dp"
+                android:linksClickable="true"
+                android:padding="10dp"
+                android:text="@string/website"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/facebook"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_fb"
+                android:drawablePadding="20dp"
+                android:linksClickable="true"
+                android:padding="10dp"
+                android:text="@string/facebook"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/instagram"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_ig"
+                android:drawablePadding="20dp"
+                android:linksClickable="true"
+                android:padding="10dp"
+                android:text="@string/instagram"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/youtube"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_youtube"
+                android:drawablePadding="20dp"
+                android:linksClickable="true"
+                android:padding="10dp"
+                android:text="@string/youtube"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dip" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#6A676A"
+                android:padding="10dp"
+                android:text="Tentang Kami"
+                android:textAlignment="center"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_office"
+                android:drawablePadding="20dp"
+                android:padding="10dp"
+                android:text="Jl. Raya Solo No. 30\nJiwan - Madiun - 63161 "
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_phone"
+                android:drawablePadding="20dp"
+                android:padding="10dp"
+                android:text="0351 - 463193 "
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_email"
+                android:drawablePadding="20dp"
+                android:padding="10dp"
+                android:text="bps3519@bps.go.id"
+                android:textSize="15sp" />
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#6A676A">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/chat" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="Layanan Data dan Pengaduan"
+                    android:textAlignment="center"
+                    android:textColor="@color/white" />
+
+            </TableRow>
+
+            <TextView
+                android:id="@+id/chat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_wa"
+                android:drawablePadding="20dp"
+                android:linksClickable="true"
+                android:padding="10dp"
+                android:text="@string/chat"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="100dip" />
+
+        </LinearLayout>
+    </ScrollView>
+
+<com.google.android.material.bottomnavigation.BottomNavigationView
+android:id="@+id/bottom_navigation"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+app:itemBackground="@color/background"
+app:menu="@menu/menu_navigation"
+app:itemTextColor="@drawable/selector"
+app:itemIconTint="@drawable/selector"
+android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

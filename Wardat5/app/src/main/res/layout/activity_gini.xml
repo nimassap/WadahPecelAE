@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/gini">
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#7449A8"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:text="Gini Rasio"
+            android:clickable="true"
+            android:onClick="back"
+            android:drawableLeft="@drawable/ic_back"/>
+
+        <TableRow
+            android:background="#0C03A9F4"
+            android:layout_width="match_parent"
+            android:padding="5dip">
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/rowlay4"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="@color/purple_200"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_gravity="center_vertical"
+                android:text="Uraian"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/gini_tahun3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:text="2018"
+                android:textAlignment="center"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/gini_tahun2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="2019"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/gini_tahun1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="2020"
+                android:textAlignment="center" />
+            
+            <TextView
+                android:id="@+id/gini_tahunNew1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="2021"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/gini_tahunNew2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="2022"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/gini_tahunNew3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="2023"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/gini_tahunNew4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="2024"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/gini_tahunNew5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="2025"
+                android:textAlignment="center" />
+
+            
+
+        </TableRow>
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="#ECEFF1"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Gini Rasio" />
+
+            <TextView
+                android:id="@+id/ginirasio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:text="0,332" />
+
+            <TextView
+                android:id="@+id/ginirasio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:text="0,333" />
+
+            <TextView
+                android:id="@+id/ginirasio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="0,357"
+                android:textAlignment="center" />
+            
+            <TextView
+                android:id="@+id/ginirasioNew1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Data\nbelum\ntersedia"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/ginirasioNew2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Data\nbelum\ntersedia"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/ginirasioNew3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Data\nbelum\ntersedia"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/ginirasioNew4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Data\nbelum\ntersedia"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/ginirasioNew5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Data\nbelum\ntersedia"
+                android:textAlignment="center" />
+            
+            
+
+        </TableRow>
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="#ECEFF1"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="RSE" />
+
+            <TextView
+                android:id="@+id/RSE3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:text="4,14" />
+
+            <TextView
+                android:id="@+id/RSE2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:text="4,67" />
+
+            <TextView
+                android:id="@+id/RSE1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="3,13"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/RSENew1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Data\nbelum\ntersedia"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/RSENew2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Data\nbelum\ntersedia"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/RSENew3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Data\nbelum\ntersedia"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/RSENew4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Data\nbelum\ntersedia"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/RSENew5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Data\nbelum\ntersedia"
+                android:textAlignment="center" />
+
+
+
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="#ECEFF1"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Indeks L" />
+
+            <TextView
+                android:id="@+id/IndeksL3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:text="0,21242" />
+
+            <TextView
+                android:id="@+id/IndeksL2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:text="0,21306" />
+
+            <TextView
+                android:id="@+id/IndeksL1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="0,22064"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/IndeksLNew1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Data\nbelum\ntersedia"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/IndeksLNew2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Data\nbelum\ntersedia"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/IndeksLNew3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Data\nbelum\ntersedia"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/IndeksLNew4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Data\nbelum\ntersedia"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/IndeksLNew5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Data\nbelum\ntersedia"
+                android:textAlignment="center" />
+
+
+
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="#ECEFF1"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Indeks\nTheil" />
+
+            <TextView
+                android:id="@+id/IndeksTheil3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:text="0,17809" />
+
+            <TextView
+                android:id="@+id/IndeksTheil2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:text="0,18026" />
+
+            <TextView
+                android:id="@+id/IndeksTheil1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="0,20486"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/IndeksTheilNew1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Data\nbelum\ntersedia"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/IndeksTheilNew2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Data\nbelum\ntersedia"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/IndeksTheilNew3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Data\nbelum\ntersedia"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/IndeksTheilNew4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Data\nbelum\ntersedia"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/IndeksTheilNew5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Data\nbelum\ntersedia"
+                android:textAlignment="center" />
+
+
+
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="#ECEFF1"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ECEFF1"
+                android:text="Persentase\nPengeluaran\n(%) :" />
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="#ECEFF1"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="40%\nTerendah" />
+
+            <TextView
+                android:id="@+id/terendah3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:text="20,60" />
+
+            <TextView
+                android:id="@+id/terendah2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:text="20,63" />
+
+            <TextView
+                android:id="@+id/terendah1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="18,66"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/terendahNew1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Data\nbelum\ntersedia"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/terendahNew2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Data\nbelum\ntersedia"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/terendahNew3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Data\nbelum\ntersedia"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/terendahNew4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Data\nbelum\ntersedia"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/terendahNew5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Data\nbelum\ntersedia"
+                android:textAlignment="center" />
+
+
+
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="#ECEFF1"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="40%\nMenengah" />
+
+            <TextView
+                android:id="@+id/menengah3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:text="37,12" />
+
+            <TextView
+                android:id="@+id/menengah2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:text="37,18" />
+
+            <TextView
+                android:id="@+id/menengah1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="38,18"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/menengahNew1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Data\nbelum\ntersedia"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/menengahNew2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Data\nbelum\ntersedia"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/menengahNew3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Data\nbelum\ntersedia"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/menengahNew4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Data\nbelum\ntersedia"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/menengahNew5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Data\nbelum\ntersedia"
+                android:textAlignment="center" />
+
+
+
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="#ECEFF1"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="20%\nTeratas" />
+
+            <TextView
+                android:id="@+id/teratas3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:text="42,27" />
+
+            <TextView
+                android:id="@+id/teratas2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:text="42,18" />
+
+            <TextView
+                android:id="@+id/teratas1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="43,16"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/teratasNew1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Data\nbelum\ntersedia"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/teratasNew2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Data\nbelum\ntersedia"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/teratasNew3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Data\nbelum\ntersedia"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/teratasNew4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Data\nbelum\ntersedia"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/teratasNew5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Data\nbelum\ntersedia"
+                android:textAlignment="center" />
+
+
+
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dip"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:textSize="10sp"
+            android:text="Keterangan:" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:textSize="10sp"
+            android:text="Gini Rasio adalah ukuran ketidakmerataan atau ketimpangan agregat pengeluaran penduduk yang angkanya berkisar antara nol (pemerataan sempurna) hingga satu (ketimpangan yang sempurna). " />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dip"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:textSize="10sp"
+            android:text="Kriteria Nilai RSE :" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:textSize="10sp"
+            android:text="RSE kurang dari sama dengan 25 persen : Akurat digunakan" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:textSize="10sp"
+            android:text="RSE antara 25 sampai dengan 50 persen : Perlu hati-hati jika digunakan" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:textSize="10sp"
+            android:text="RSE lebih dari 50 persen : Dianggap tidak akurat " />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dip"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:textSize="10sp"
+            android:text="Angka Indeks Theil ini lebih sensitif untuk melihat perubahan distribusi pengeluaran penduduk pada kelompok atas (penduduk kaya)."
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dip"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:textSize="10sp"
+            android:text="Angka Indeks-L ini lebih sensitif untuk melihat perubahan distribusi pengeluaran penduduk pada kelompok bawah (penduduk miskin)" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dip"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:textSize="10sp"
+            android:text="Ukuran ketimpangan Bank Dunia ditentukan berdasarkan besarnya jumlah yang diterima oleh kelompok 40% penduduk terendah, dengan kriteria sebagai berikut:" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:textSize="10sp"
+            android:text="- Bila persentase yang diterima oleh kelompok 40% terendah lebih kecil dari 12 persen, maka dikatakan terdapat ketimpangan tinggi.\n- Bila persentase yang diterima kelompok 40% penduduk terendah antara 12 sampai dengan 17 persen, maka dikatakan terdapat ketimpangan moderat/sedang/menengah.\n- Bila persentase yang diterima oleh kelompok 40% penduduk rendah lebih besar dari 17 persen maka dikatakan terdapat ketimpangan rendah." />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="100dip"
+            />
+    </TableLayout>
+</ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:itemBackground="@color/background"
+        app:menu="@menu/menu_navigation"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

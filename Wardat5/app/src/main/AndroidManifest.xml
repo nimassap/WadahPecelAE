@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="wadah.pecel">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Intent">
+        <activity
+            android:name=".Infografis_Gambarbaru5"
+            android:exported="false" />
+        <activity
+            android:name=".InfografisTambah5"
+            android:exported="false" />
+        <activity
+            android:name=".Infografis_Gambarbaru4"
+            android:exported="false" />
+        <activity
+            android:name=".InfografisTambah4"
+            android:exported="false" />
+        <activity
+            android:name=".Infografis_Gambarbaru3"
+            android:exported="false" />
+        <activity
+            android:name=".InfografisTambah3"
+            android:exported="false" />
+        <activity
+            android:name=".Infografis_Gambarbaru2"
+            android:exported="false" />
+        <activity
+            android:name=".InfografisTambah2"
+            android:exported="false" />
+        <activity
+            android:name=".Infografis_Gambarbaru1"
+            android:exported="false" />
+        <activity
+            android:name=".InfografisTambah1"
+            android:exported="false" />
+        <activity
+            android:name=".InfohasilspGambar"
+            android:exported="false" />
+        <activity
+            android:name=".InfomiskinGambar"
+            android:exported="false" />
+        <activity
+            android:name=".InfoipmGambar"
+            android:exported="false" />
+        <activity
+            android:name=".InfotaniGambar"
+            android:exported="false" />
+        <activity
+            android:name=".Infosp2020Gambar"
+            android:exported="false" />
+        <activity
+            android:name=".InfopadiGambar"
+            android:exported="false" />
+        <activity
+            android:name=".InfoakGambar"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false"
+            android:label="Tentang BPS"
+            android:theme="@style/Theme.Profile" />
+        <activity
+            android:name=".SearchActivity"
+            android:exported="false"
+            android:label="SEARCH"
+            android:theme="@style/Theme.Search" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity android:name=".GiniActivity" />
+        <activity android:name=".SpgenerasiActivity" />
+        <activity android:name=".RasiojkActivity" />
+        <activity android:name=".SppddkActivity" />
+        <activity android:name=".Sp2020Activity" />
+        <activity android:name=".InfohasilspActivity" />
+        <activity android:name=".InfopadiActivity" />
+        <activity android:name=".Infosp2020Activity" />
+        <activity android:name=".InfografisActivity" />
+        <activity android:name=".InfopdrbluarActivity" />
+        <activity android:name=".InfopdrbluActivity" />
+        <activity android:name=".InfoipmActivity" />
+        <activity android:name=".InfomiskinActivity" />
+        <activity android:name=".InfotaniActivity" />
+        <activity android:name=".InfoakActivity" />
+        <activity android:name=".AboutActivity" />
+        <activity android:name=".UbijActivity" />
+        <activity android:name=".UbikActivity" />
+        <activity android:name=".KacangtActivity" />
+        <activity android:name=".KedelaiActivity" />
+        <activity android:name=".BerasActivity" />
+        <activity android:name=".JagungActivity" />
+        <activity android:name=".PadiActivity" />
+        <activity android:name=".IpmActivity" />
+        <activity android:name=".PdrbluarActivity" />
+        <activity android:name=".PdrblapusActivity" />
+        <activity android:name=".ApmActivity" />
+        <activity android:name=".ApkActivity" />
+        <activity android:name=".ApsActivity" />
+        <activity android:name=".PddklapusActivity" />
+        <activity android:name=".PendudukActivity" />
+        <activity android:name=".KetenagakerjaanActivity" />
+        <activity android:name=".KemiskinanActivity" />
+        <activity android:name=".SosialActivity" />
+        <activity android:name=".PertanianActivity" />
+        <activity android:name=".EkonomiActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

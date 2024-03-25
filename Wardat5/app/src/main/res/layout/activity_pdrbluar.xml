@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:id="@+id/pdrbluar">
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/ekonomi_judul"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:text="PDRB menurut Pengeluaran"
+        android:clickable="true"
+        android:onClick="back"
+        android:drawableLeft="@drawable/ic_back"
+        tools:ignore="OnClick" />
+
+    <TableRow
+        android:background="#0C03A9F4"
+        android:layout_width="match_parent"
+        android:padding="5dip">
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/rowlay4"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#F1C27F"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:layout_gravity="center_vertical"
+            android:text="Tahun"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:text="PDRB adhb\n(juta rupiah)"
+            android:textAlignment="center"
+            tools:ignore="RtlCompat" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:layout_gravity="center_vertical"
+            android:text="PDRB adhk\n(juta rupiah)"
+            tools:ignore="RtlCompat" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:layout_gravity="center_vertical"
+            android:text="Pertumbuhan\nPDRB\n(%)"
+            tools:ignore="RtlCompat" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#ECEFF1"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/pdrbluar_tahun6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="2015" />
+
+        <TextView
+            android:id="@+id/pdrbluar_adhb6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="13.901.453,99"
+            android:textAlignment="center" />
+        <TextView
+            android:id="@+id/pdrbluar_adhk6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="10.704.872,54" />
+        <TextView
+            android:id="@+id/pdrbluar_pertumbuhan6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="5,26" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#ECEFF1"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/pdrbluar_tahun5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="2016" />
+
+        <TextView
+            android:id="@+id/pdrbluar_adhb5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="15.226.950,78"
+            android:textAlignment="center" />
+        <TextView
+            android:id="@+id/pdrbluar_adhk5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="11.268.897,88" />
+        <TextView
+            android:id="@+id/pdrbluar_pertumbuhan5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="5,27" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#ECEFF1"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/pdrbluar_tahun4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="2017" />
+
+        <TextView
+            android:id="@+id/pdrbluar_adhb4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="16.374.841,49"
+            android:textAlignment="center" />
+        <TextView
+            android:id="@+id/pdrbluar_adhk4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="11.879.336,61" />
+        <TextView
+            android:id="@+id/pdrbluar_pertumbuhan4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="5,42" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#ECEFF1"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/pdrbluar_tahun3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="2018" />
+
+        <TextView
+            android:id="@+id/pdrbluar_adhb3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="17.636.096,67"
+            android:textAlignment="center" />
+        <TextView
+            android:id="@+id/pdrbluar_adhk3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="12.485.007,71" />
+        <TextView
+            android:id="@+id/pdrbluar_pertumbuhan3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="5,10" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#ECEFF1"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/pdrbluar_tahun2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="2019" />
+
+        <TextView
+            android:id="@+id/pdrbluar_adhb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="18.931.550,75"
+            android:textAlignment="center" />
+        <TextView
+            android:id="@+id/pdrbluar_adhk2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="13.161.840,22" />
+        <TextView
+            android:id="@+id/pdrbluar_pertumbuhan2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="5,42" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#ECEFF1"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/pdrbluar_tahun1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="2020" />
+
+        <TextView
+            android:id="@+id/pdrbluar_adhb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="18.917.154,90"
+            android:textAlignment="center" />
+        <TextView
+            android:id="@+id/pdrbluar_adhk1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="12.939.583,90" />
+        <TextView
+            android:id="@+id/pdrbluar_pertumbuhan1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="-1,84" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#ECEFF1"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/pdrbluar_tahunNew1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="2021" />
+
+        <TextView
+            android:id="@+id/pdrbluar_adhbNew1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Data belum\ntersedia"
+            android:textAlignment="center" />
+        <TextView
+            android:id="@+id/pdrbluar_adhkNew1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="Data belum\ntersedia" />
+        <TextView
+            android:id="@+id/pdrbluar_pertumbuhanNew1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="Data belum\ntersedia" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#ECEFF1"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/pdrbluar_tahunNew2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="2022" />
+
+        <TextView
+            android:id="@+id/pdrbluar_adhbNew2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Data belum\ntersedia"
+            android:textAlignment="center" />
+        <TextView
+            android:id="@+id/pdrbluar_adhkNew2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="Data belum\ntersedia" />
+        <TextView
+            android:id="@+id/pdrbluar_pertumbuhanNew2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="Data belum\ntersedia" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#ECEFF1"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/pdrbluar_tahunNew3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="2023" />
+
+        <TextView
+            android:id="@+id/pdrbluar_adhbNew3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Data belum\ntersedia"
+            android:textAlignment="center" />
+        <TextView
+            android:id="@+id/pdrbluar_adhkNew3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="Data belum\ntersedia" />
+        <TextView
+            android:id="@+id/pdrbluar_pertumbuhanNew3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="Data belum\ntersedia" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#ECEFF1"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/pdrbluar_tahunNew4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="2024" />
+
+        <TextView
+            android:id="@+id/pdrbluar_adhbNew4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Data belum\ntersedia"
+            android:textAlignment="center" />
+        <TextView
+            android:id="@+id/pdrbluar_adhkNew4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="Data belum\ntersedia" />
+        <TextView
+            android:id="@+id/pdrbluar_pertumbuhanNew4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="Data belum\ntersedia" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#ECEFF1"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/pdrbluar_tahunNew5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="2025" />
+
+        <TextView
+            android:id="@+id/pdrbluar_adhbNew5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Data belum\ntersedia"
+            android:textAlignment="center" />
+        <TextView
+            android:id="@+id/pdrbluar_adhkNew5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="Data belum\ntersedia" />
+        <TextView
+            android:id="@+id/pdrbluar_pertumbuhanNew5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="Data belum\ntersedia" />
+
+    </TableRow>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dip"
+        />
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingLeft="5dp"
+        >
+        <TextView
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textSize="10sp"
+            android:layout_span="4"
+            android:text="Keterangan:" />
+    </TableRow>
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingLeft="10dp"
+        >
+        <TextView
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textSize="10sp"
+            android:layout_span="4"
+            android:text="adhb = atas dasar harga berlaku" />
+    </TableRow>
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingLeft="10dp"
+        >
+        <TextView
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textSize="10sp"
+            android:layout_span="4"
+            android:text="adhk = atas dasar harga konstan" />
+    </TableRow>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dip"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Distribusi Persentase PDRB Pengeluaran 2019"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dip"
+        />
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:src="@drawable/dist_pengeluaran2"
+        android:clickable="true"
+        android:onClick="distluar"
+        android:id="@+id/distluar"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        tools:ignore="OnClick" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="100dip"/>
+
+</TableLayout>
+</ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:itemBackground="@color/background"
+        app:menu="@menu/menu_navigation"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:id="@+id/penduduk">
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/sosial_judul"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:text="PENDUDUK"
+            android:clickable="true"
+            android:onClick="back"
+            android:drawableLeft="@drawable/ic_back"
+            tools:ignore="OnClick" />
+
+            <TableRow
+                android:background="#0C03A9F4"
+                android:layout_width="match_parent"
+                android:padding="5dip">
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/rowlay4"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:background="@android:color/holo_blue_light"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="55dp"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:layout_gravity="center_vertical"
+                    android:text="Tahun"
+                    tools:ignore="RtlCompat" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Jumlah Penduduk\nLaki-Laki\n(jiwa)"
+                    android:textAlignment="center" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="Jumlah Penduduk\nPerempuan\n(jiwa)" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:layout_gravity="center_vertical"
+                    android:text="Jumlah Penduduk\n(jiwa)"
+                    tools:ignore="RtlCompat" />
+
+            </TableRow>
+
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#ECEFF1"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/pend_jk_tahun6"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="2015" />
+
+        <TextView
+            android:id="@+id/jml_pend_laki6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="333.063"
+            android:textAlignment="center" />
+        <TextView
+            android:id="@+id/jml_pend_prmpn6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="341.894" />
+        <TextView
+            android:id="@+id/jml_pend6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="674.957" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#ECEFF1"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/pend_jk_tahun5"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="2016" />
+
+        <TextView
+            android:id="@+id/jml_pend_laki5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="334.203"
+            android:textAlignment="center" />
+        <TextView
+            android:id="@+id/jml_pend_prmpn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="343.068" />
+        <TextView
+            android:id="@+id/jml_pend5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="677.271" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#ECEFF1"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/pend_jk_tahun4"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="2017" />
+
+        <TextView
+            android:id="@+id/jml_pend_laki4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="335.227"
+            android:textAlignment="center" />
+        <TextView
+            android:id="@+id/jml_pend_prmpn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="344.134" />
+        <TextView
+            android:id="@+id/jml_pend4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="679.361" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#ECEFF1"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/pend_jk_tahun3"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="2018" />
+
+        <TextView
+            android:id="@+id/jml_pend_laki3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="336.136"
+            android:textAlignment="center" />
+        <TextView
+            android:id="@+id/jml_pend_prmpn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="345.091" />
+        <TextView
+            android:id="@+id/jml_pend3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="681.227" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#ECEFF1"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/pend_jk_tahun2"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="2019" />
+
+        <TextView
+            android:id="@+id/jml_pend_laki2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="336.928"
+            android:textAlignment="center" />
+        <TextView
+            android:id="@+id/jml_pend_prmpn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="345.940" />
+        <TextView
+            android:id="@+id/jml_pend2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="682.868" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#ECEFF1"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/pend_jk_tahun1"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="2020*" />
+
+        <TextView
+            android:id="@+id/jml_pend_laki1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="368.908"
+            android:textAlignment="center" />
+        <TextView
+            android:id="@+id/jml_pend_prmpn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="375.442" />
+        <TextView
+            android:id="@+id/jml_pend1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="744.350" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#ECEFF1"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/pend_jk_tahunNew1"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="2021" />
+
+        <TextView
+            android:id="@+id/jml_pend_lakiNew1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Data\nbelum\ntersedia"
+            android:textAlignment="center" />
+        <TextView
+            android:id="@+id/jml_pend_prmpnNew1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="Data\nbelum\ntersedia" />
+        <TextView
+            android:id="@+id/jml_pendNew1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="Data\nbelum\ntersedia" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#ECEFF1"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/pend_jk_tahunNew2"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="2022" />
+
+        <TextView
+            android:id="@+id/jml_pend_lakiNew2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Data\nbelum\ntersedia"
+            android:textAlignment="center" />
+        <TextView
+            android:id="@+id/jml_pend_prmpnNew2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="Data\nbelum\ntersedia" />
+        <TextView
+            android:id="@+id/jml_pendNew2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="Data\nbelum\ntersedia" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#ECEFF1"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/pend_jk_tahunNew3"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="2023" />
+
+        <TextView
+            android:id="@+id/jml_pend_lakiNew3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Data\nbelum\ntersedia"
+            android:textAlignment="center" />
+        <TextView
+            android:id="@+id/jml_pend_prmpnNew3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="Data\nbelum\ntersedia" />
+        <TextView
+            android:id="@+id/jml_pendNew3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="Data\nbelum\ntersedia" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#ECEFF1"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/pend_jk_tahunNew4"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="2024" />
+
+        <TextView
+            android:id="@+id/jml_pend_lakiNew4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Data\nbelum\ntersedia"
+            android:textAlignment="center" />
+        <TextView
+            android:id="@+id/jml_pend_prmpnNew4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="Data\nbelum\ntersedia" />
+        <TextView
+            android:id="@+id/jml_pendNew4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="Data\nbelum\ntersedia" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#ECEFF1"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/pend_jk_tahunNew5"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="2025" />
+
+        <TextView
+            android:id="@+id/jml_pend_lakiNew5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Data\nbelum\ntersedia"
+            android:textAlignment="center" />
+        <TextView
+            android:id="@+id/jml_pend_prmpnNew5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="Data\nbelum\ntersedia" />
+        <TextView
+            android:id="@+id/jml_pendNew5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="Data\nbelum\ntersedia" />
+
+    </TableRow>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dip"
+        />
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingLeft="5dp"
+        >
+        <TextView
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textSize="10sp"
+            android:layout_span="4"
+            android:text="Keterangan:" />
+    </TableRow>
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingLeft="10dp"
+        >
+        <TextView
+            android:id="@+id/ket_pend1"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textSize="10sp"
+            android:layout_span="4"
+            android:text="2015-2019 : Proyeksi Penduduk Hasil Survei Penduduk Antar Sensus (SUPAS) 2015" />
+    </TableRow>
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingLeft="10dp"
+        >
+        <TextView
+            android:id="@+id/ket_pend2"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textSize="10sp"
+            android:layout_span="4"
+            android:text="2020* : Hasil Sensus Penduduk 2020 (SP2020)" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="100dip"/>
+    </TableRow>
+</TableLayout>
+</ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:itemBackground="@color/background"
+        app:menu="@menu/menu_navigation"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>

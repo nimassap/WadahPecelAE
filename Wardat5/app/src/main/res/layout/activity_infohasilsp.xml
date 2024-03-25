@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:id="@+id/infohasilsp">
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#37425A">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        >
+
+        <ImageView
+            android:id="@+id/img_infohasilsp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:onClick="hasil_sp2020"
+            android:src="@drawable/hasil_sp2020"
+            tools:ignore="OnClick" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="15dip"
+            />
+
+        <TextView
+            android:id="@+id/text_infohasilsp1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Hasil Sensus Penduduk 2020"/>
+
+        <TextView
+            android:id="@+id/text_infohasilsp2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginTop="10sp"
+            android:text="Kalian masuk generasi apa sahabat data?"/>
+
+        <TextView
+            android:id="@+id/text_infohasilsp3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginTop="10sp"
+            android:text="Berdasarkan hasil Sensus Penduduk 2020, Penduduk Kabupaten Madiun paling banyak pada generasi X yaitu sebesar 24 persen dari seluruh penduduk di Kabupaten Madiun."/>
+
+        <TextView
+            android:id="@+id/text_infohasilsp4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginTop="10sp"
+            android:text=""/>
+
+        <TextView
+            android:id="@+id/text_infohasilsp5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginTop="10sp"
+            android:text=""/>
+
+        <TextView
+            android:id="@+id/text_infohasilsp6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginTop="10sp"
+            android:text=""/>
+
+        <TextView
+            android:id="@+id/text_infohasilsp7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginTop="10sp"
+            android:text=""/>
+
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="100dip"
+            />
+    </LinearLayout>
+</ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:itemBackground="@color/background"
+        app:menu="@menu/menu_navigation"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>

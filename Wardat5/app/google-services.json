@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "673075666744",
+    "project_id": "wardat3-b5fb8",
+    "storage_bucket": "wardat3-b5fb8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673075666744:android:f222a92c1c50111d66abcd",
+        "android_client_info": {
+          "package_name": "wadah.pecel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "673075666744-sm4o917jc20ujdf680rvjo1b61jrns26.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATtU9wGi7NTJwitzSHvyk6qbMJM_scGFE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "673075666744-sm4o917jc20ujdf680rvjo1b61jrns26.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:id="@+id/sosial">
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sosial"
+    >
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/sosial_judul"
+        android:text="SOSIAL"
+        android:onClick="back"
+        android:drawableLeft="@drawable/ic_back"
+        tools:ignore="OnClick" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kemiskinan"
+        android:id="@+id/kemiskinan"
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/ic_miskin"
+        android:drawablePadding="20dp"
+        android:onClick="Kemiskinan"
+        android:clickable="true"
+        tools:ignore="OnClick" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ketenagakerjaan"
+        android:id="@+id/ketenagakerjaan"
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/ic_kerja"
+        android:drawablePadding="20dp"
+        android:onClick="Ketenagakerjaan"
+        android:clickable="true"
+        tools:ignore="OnClick" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Penduduk menurut Jenis Kelamin"
+
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/ic_pddk"
+        android:drawablePadding="20dp"
+        android:onClick="Penduduk"
+        android:clickable="true"
+        tools:ignore="OnClick" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Penduduk Bekerja menurut Lapangan Usaha"
+
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/ic_work"
+        android:drawablePadding="20dp"
+        android:onClick="Pddklapus"
+        android:clickable="true"
+        tools:ignore="OnClick" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Angka Partisipasi Sekolah (APS)"
+
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/ic_aps"
+        android:drawablePadding="20dp"
+        android:onClick="aps"
+        android:clickable="true"
+        tools:ignore="OnClick" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Angka Partisipasi Kasar (APK)"
+
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/ic_apk"
+        android:drawablePadding="20dp"
+        android:onClick="apk"
+        android:clickable="true"
+        tools:ignore="OnClick" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Angka Partisipasi Murni (APM)"
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/ic_school"
+        android:drawablePadding="20dp"
+        android:onClick="apm"
+        android:clickable="true"
+        tools:ignore="OnClick" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hasil Sensus Penduduk 2020"
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/ic_sp2020"
+        android:drawableRight="@drawable/ic_new"
+        android:drawablePadding="20dp"
+        android:onClick="sp2020"
+        android:clickable="true"
+        tools:ignore="OnClick" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gini Rasio"
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/ic_gini"
+        android:drawableRight="@drawable/ic_new"
+        android:drawablePadding="20dp"
+        android:onClick="gini"
+        android:clickable="true"
+        tools:ignore="OnClick" />
+</LinearLayout>
+</ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:itemBackground="@color/background"
+        app:menu="@menu/menu_navigation"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>

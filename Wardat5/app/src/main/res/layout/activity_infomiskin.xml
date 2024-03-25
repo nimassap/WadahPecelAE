@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:id="@+id/infomiskin">
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#37425A">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        >
+
+        <ImageView
+            android:id="@+id/img_infomiskin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:onClick="kemiskinan"
+            android:src="@drawable/kemiskinan"
+            tools:ignore="OnClick" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dip"
+         />
+
+    <TextView
+        android:id="@+id/text_infomiskin1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Kemiskinan merupakan salah satu issu penting yang menjadi potret keberhasilan kinerja pemerintah baik pusat maupun daerah."
+        />
+
+        <TextView
+            android:id="@+id/text_infomiskin2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginTop="10sp"
+            android:text="Persentase penduduk miskin tahun 2020 meningkat 0,92 poin dari 10,54 persen di tahun 2019 menjadi 11,46 persen di tahun 2020. Peningkatan jumlah penduduk miskin ini disebabkan salah satunya adalah adanya kenaikan garis kemiskinan dari Rp. 344.994,- ditahun 2019 menjadi Rp. 364.638,- di tahun 2020."/>
+
+        <TextView
+            android:id="@+id/text_infomiskin3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginTop="10sp"
+            android:text="Karakteristik penduduk miskin tidak terlepas dari pendidikannya, semakin tinggi pendidikannya diharapkan semakin baik pendapatannya. 48,21 persen penduduk miskin usia 15 tahun keatas memiliki pendidikan SD atau SLTP, sedangkan yang berpendidikan terakhir SLTA keatas mencapai 16,04 persen."/>
+
+        <TextView
+            android:id="@+id/text_infomiskin4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginTop="10sp"
+            android:text="Ketenagakerjaan merupakan salah satu hal berhubungan erat dengan pendapatan. Sejumlah 46,04 penduduk miskin tidak bekerja, sebesar 36,50 persen bekerja di sector informal dan hanya 17,46 persen yang bekerja di sector formal. Sektor pertanian merupakan ciri khas di daerah pedesaan tidak terlepas dari kemiskinan di pedesaan, penduduk miskin yang bekerja di sector pertanian mencapai 30,02 persen sedangkan penduduk miskin yang bekerja di sector non pertanian mencapai 23,94 persen."/>
+
+        <TextView
+            android:id="@+id/text_infomiskin5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginTop="10sp"
+            android:text="Kesejahteraan petani masih menjadi pekerjaan rumah bersama terutama bagi pemerintah baik di tingkat pusat maupun daerah."/>
+
+        <TextView
+            android:id="@+id/text_infomiskin6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginTop="10sp"
+            android:text="Intervensi Pemerintah dalam mengentaskan kemiskinan sudah berjalan beberapa tahun terakhir. Persentase rumah tangga miskin yang menerima dan memanfaatkan Bantuan Pangan Non Tunai (BPNT) / Program Sembako hanya sejumlah 29,85 persen dengan rata-rata jumlah beras yang dibeli selama 4 bulan terakhir adalah 10,54 kilogram dengan harga Rp.10.222,- per kilogram. Masih ada yang kurang tepat sasaran dalam penyaluran program-program sosial ditengarani masih terjadi di masyarakat, hal ini perlu mendapat perhatian khusus dari pemerintah agar kedepannya program-program social bisa tepat sasaran dan bisa mengentaskan kemiskinan."/>
+
+        <TextView
+            android:id="@+id/text_infomiskin7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginTop="10sp"
+            android:text=""/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="100dip"
+            />
+</LinearLayout>
+</ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:itemBackground="@color/background"
+        app:menu="@menu/menu_navigation"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>

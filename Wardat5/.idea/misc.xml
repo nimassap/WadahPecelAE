@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ME/KP/BPS/APP/Wardat/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/drawable-v24/ic_rice.xml" value="0.149" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/drawable-v24/ic_wa.xml" value="0.149" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/drawable/ic_about.xml" value="0.149" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/drawable/ic_aps.xml" value="0.1305" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/drawable/ic_arrow_down.xml" value="0.1285" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/drawable/ic_arrow_up.xml" value="0.1285" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/drawable/ic_check.xml" value="0.1305" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/drawable/ic_corn.xml" value="0.1995" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/drawable/ic_ekonomi.xml" value="0.1305" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/drawable/ic_home.xml" value="0.143" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/drawable/ic_ipm.xml" value="0.1305" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/drawable/ic_kacangh.xml" value="0.1995" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/drawable/ic_kacangt.xml" value="0.1995" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/drawable/ic_kedelai.xml" value="0.1995" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/drawable/ic_kerja.xml" value="0.1305" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/drawable/ic_miskin.xml" value="0.1305" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/drawable/ic_new.xml" value="0.1305" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/drawable/ic_office.xml" value="0.1305" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/drawable/ic_others.xml" value="0.1305" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/drawable/ic_padi.xml" value="0.1995" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/drawable/ic_pddk.xml" value="0.1305" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/drawable/ic_pdrb.xml" value="0.1305" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/drawable/ic_pdrb2.xml" value="0.1305" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/drawable/ic_pertanian.xml" value="0.1995" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/drawable/ic_profile.xml" value="0.149" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/drawable/ic_school.xml" value="0.1305" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/drawable/ic_search.xml" value="0.149" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/drawable/ic_sosial.xml" value="0.1305" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/drawable/ic_sp2020.xml" value="0.1305" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/drawable/ic_ubi.xml" value="0.1995" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/drawable/ic_ubij.xml" value="0.149" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/drawable/ic_work.xml" value="0.1305" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/drawable/ic_youtube.xml" value="0.149" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/drawable/selector.xml" value="0.143" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/drawable/side_nav_bar.xml" value="0.149" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/activity_about.xml" value="0.25416666666666665" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/activity_apk.xml" value="0.264" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/activity_apm.xml" value="0.4" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/activity_aps.xml" value="0.264" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/activity_beras.xml" value="0.25416666666666665" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/activity_ekonomi.xml" value="0.25416666666666665" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/activity_firebase.xml" value="0.24909420289855072" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/activity_gini.xml" value="0.25416666666666665" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/activity_infoak.xml" value="0.2" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/activity_infoakgambar.xml" value="0.25416666666666665" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/activity_infografis.xml" value="0.2" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/activity_infografis_gambarbaru1.xml" value="0.25416666666666665" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/activity_infografis_gambarbaru2.xml" value="0.25416666666666665" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/activity_infografis_gambarbaru3.xml" value="0.25416666666666665" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/activity_infografis_gambarbaru4.xml" value="0.25416666666666665" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/activity_infografis_gambarbaru5.xml" value="0.25416666666666665" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/activity_infografis_tambah1.xml" value="0.25416666666666665" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/activity_infografis_tambah2.xml" value="0.25416666666666665" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/activity_infografis_tambah3.xml" value="0.25416666666666665" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/activity_infografis_tambah4.xml" value="0.25416666666666665" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/activity_infografis_tambah5.xml" value="0.25416666666666665" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/activity_infohasilsp.xml" value="0.264" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/activity_infohasilsp_gambar.xml" value="0.25416666666666665" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/activity_infoipm.xml" value="0.25416666666666665" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/activity_infoipm_gambar.xml" value="0.25416666666666665" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/activity_infomiskin.xml" value="0.25416666666666665" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/activity_infomiskin_gambar.xml" value="0.25416666666666665" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/activity_infopadi.xml" value="0.264" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/activity_infopadi_gambar.xml" value="0.25416666666666665" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/activity_infopdrblu.xml" value="0.25416666666666665" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/activity_infopdrbluar.xml" value="0.25416666666666665" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/activity_infosp2020.xml" value="0.2" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/activity_infosp2020_gambar.xml" value="0.25416666666666665" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/activity_infotani.xml" value="0.264" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/activity_infotani_gambar.xml" value="0.25416666666666665" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/activity_ipm.xml" value="0.264" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/activity_jagung.xml" value="0.264" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/activity_kacangt.xml" value="0.4" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/activity_kedelai.xml" value="0.4" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/activity_kemiskinan.xml" value="0.264" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/activity_ketenagakerjaan.xml" value="0.25416666666666665" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/activity_padi.xml" value="0.4" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/activity_pddklapus.xml" value="0.264" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/activity_pdrblapus.xml" value="0.264" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/activity_pdrbluar.xml" value="0.264" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/activity_penduduk.xml" value="0.25416666666666665" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/activity_pertanian.xml" value="0.25416666666666665" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/activity_profile.xml" value="0.2" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/activity_rasiojk.xml" value="0.4" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/activity_search.xml" value="0.264" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/activity_sosial.xml" value="0.25416666666666665" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/activity_sp2020.xml" value="0.25416666666666665" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/activity_spgenerasi.xml" value="0.25263157894736843" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/activity_splash.xml" value="0.25416666666666665" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/activity_sppddk.xml" value="0.4" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/activity_ubij.xml" value="0.4" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/activity_ubik.xml" value="0.4" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/fragment_home.xml" value="0.2234375" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/fragment_profile.xml" value="0.2375" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/fragment_search.xml" value="0.25416666666666665" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/row.xml" value="0.264" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/layout/search_row.xml" value="0.264" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/menu/menu_navigation.xml" value="0.25416666666666665" />
+        <entry key="..\:/ME/KP/BPS/Coba-Coba/Wardat3/app/src/main/res/menu/search.xml" value="0.25416666666666665" />
+        <entry key="..\:/Wadah_Pecel_AE/Wardat5/app/src/main/res/drawable-v24/ic_rice.xml" value="0.146" />
+        <entry key="..\:/Wadah_Pecel_AE/Wardat5/app/src/main/res/drawable/ic_web.xml" value="0.146" />
+        <entry key="..\:/Wadah_Pecel_AE/Wardat5/app/src/main/res/layout/activity_about.xml" value="0.264" />
+        <entry key="..\:/Wadah_Pecel_AE/Wardat5/app/src/main/res/layout/activity_infoak.xml" value="0.16032608695652173" />
+        <entry key="..\:/Wadah_Pecel_AE/Wardat5/app/src/main/res/layout/activity_infografis_gambarbaru1.xml" value="0.25416666666666665" />
+        <entry key="..\:/Wadah_Pecel_AE/Wardat5/app/src/main/res/layout/activity_infotani.xml" value="0.16032608695652173" />
+        <entry key="..\:/Wadah_Pecel_AE/Wardat5/app/src/main/res/layout/activity_kemiskinan.xml" value="0.25416666666666665" />
+        <entry key="..\:/Wadah_Pecel_AE/Wardat5/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Wadah_Pecel_AE/Wardat5/app/src/main/res/layout/activity_padi.xml" value="0.25416666666666665" />
+        <entry key="..\:/Wadah_Pecel_AE/Wardat5/app/src/main/res/layout/activity_profile.xml" value="0.1503623188405797" />
+        <entry key="..\:/Wadah_Pecel_AE/Wardat5/app/src/main/res/layout/activity_search.xml" value="0.16032608695652173" />
+        <entry key="..\:/Wadah_Pecel_AE/Wardat5/app/src/main/res/layout/activity_sosial.xml" value="0.16032608695652173" />
+        <entry key="..\:/Wadah_Pecel_AE/Wardat5/app/src/main/res/layout/activity_splash.xml" value="0.16032608695652173" />
+        <entry key="..\:/Wadah_Pecel_AE/Wardat5/app/src/main/res/menu/menu_navigation.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

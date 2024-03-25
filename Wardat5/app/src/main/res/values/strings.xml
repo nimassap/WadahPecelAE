@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">WADAH PECEL AE</string>
+    <string name="website"><a href="https://madiunkab.bps.go.id">http://madiunkab.bps.go.id</a></string>
+    <string name="facebook"><a href="https://www.facebook.com/bps.kabupatenmadiun.5">Bps Kabupaten Madiun</a></string>
+    <string name="instagram"><a href="https://www.instagram.com/bpskabmadiun/?hl=en">bpskabmadiun</a></string>
+    <string name="youtube"><a href="https://www.youtube.com/channel/UCoeRiD2BLGCXq0QKO-jY1dg">Bps Kabupaten Madiun</a></string>
+    <string name="infografis"><marquee>INFOGRAFIS</marquee></string>
+    <string name="chat"><a href="https://api.whatsapp.com/send?phone=6281235113519%teks=Selamat%20Datang%20di%0APusat%20Layanan%20Data%0Adan%0APusat%20Pengaduan%0ABPS%20Kabupaten%20Madiun">081235113519</a></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="info_umum1"><b>- </b>Jenis statistik berdasarkan tujuan pemanfaatannya terdiri atas statistik dasar yang sepenuhnya diselenggarakan oleh BPS, statistik sektoral yang dilaksanakan oleh instansi Pemerintah secara mandiri atau bersama dengan BPS, serta statistik khusus yang diselenggarakan oleh lembaga, organisasi, perorangan, dan atau unsur masyarakat lainnya secara mandiri atau bersama dengan BPS.</string>
+    <string name="info_umum2"><b>- </b>Hasil statistik yang diselenggarakan oleh BPS diumumkan dalam Berita Resmi Statistik (BRS) secara teratur dan transparan agar masyarakat dengan mudah mengetahui dan atau mendapatkan data yang diperlukan.</string>
+    <string name="info_umum3"><b>- </b>Sistem Statistik Nasional yang andal, efektif, dan efisien.</string>
+    <string name="info_umum4"><b>- </b>Dibentuknya Forum Masyarakat Statistik sebagai wadah untuk menampung aspirasi masyarakat statistik, yang bertugas memberikan saran dan pertimbangan kepada BPS.</string>
+
+    <string name="info_umum5"><b>- </b>Menyediakan kebutuhan data bagi pemerintah dan masyarakat. Data ini didapatkan dari sensus atau survey yang dilakukan sendiri dan juga dari departemen atau lembaga pemerintahan lainnya sebagai data sekunder.</string>
+    <string name="info_umum6"><b>- </b>Membantu kegiatan statistik di departemen, lembaga pemerintah atau institusi lainnya, dalam membangun sistem perstatistikan nasional.</string>
+    <string name="info_umum7"><b>- </b>Mengembangkan dan mempromosikan standar teknik dan metodologi statistik, dan menyediakan pelayanan pada bidang pendidikan dan pelatihan statistik.</string>
+    <string name="info_umum8"><b>- </b>Membangun kerjasama dengan institusi internasional dan negara lain untuk kepentingan perkembangan statistik Indonesia.</string>
+
+</resources>
